@@ -9,6 +9,7 @@ spec:
   allowedRegistriesForImport:
     - domainName: quay.io
       insecure: false
-  allowedRegistries:
-  - quay.io
-  - registry.redhat.io
+  registrySources:
+    allowedRegistries:
+    - quay.io
+    - registry.redhat.io

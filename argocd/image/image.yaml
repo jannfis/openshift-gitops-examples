@@ -9,5 +9,6 @@ spec:
   allowedRegistriesForImport:
     - domainName: quay.io
       insecure: false
-status:
-  internalRegistryHostname: image-registry.openshift-image-registry.svc:5000
+  allowedRegistries:
+  - quay.io
+  - registry.redhat.io
